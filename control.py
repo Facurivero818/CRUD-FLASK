@@ -1,6 +1,6 @@
 
 from flask import jsonify, request
-from app2 import app, ma
+from app import app, ma
 from model import *
 
 class ProductoSchema(ma.Schema):

@@ -1,4 +1,4 @@
-from app2 import app, db    
+from app import app, db    
 
 
 class Producto(db.Model):  # Producto hereda de db.Model
